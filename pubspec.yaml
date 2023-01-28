@@ -1,0 +1,30 @@
+name: wisata_semarang
+description: Submission Flutter Pemula.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+  - images/
+
+  fonts:
+    - family: Staatliches
+      fonts:
+        - asset: fonts/Staatliches-Regular.ttf
+    - family: Oxygen
+      fonts:
+        - asset: fonts/Oxygen-Regular.ttf
